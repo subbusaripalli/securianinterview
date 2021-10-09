@@ -1,0 +1,23 @@
+{
+  "name": "webdriveriotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.14.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.14.1",
+    "@wdio/mocha-framework": "^7.14.1",
+    "@wdio/spec-reporter": "^7.14.1",
+    "chromedriver": "^94.0.0",
+    "mocha": "^9.1.2",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
